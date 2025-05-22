@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input {
+  width: 300px;
+}
