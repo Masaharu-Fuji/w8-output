@@ -1,6 +1,6 @@
 body {
-  font-family: sans-serif;
   margin: 2em;
+  font-family: sans-serif;
 }
 
 label {
@@ -10,4 +10,53 @@ label {
 
 input {
   width: 300px;
+}
+
+section {
+  max-width: 400px;
+  background-color: #333;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  padding-block-end: 30px;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
+  background-color: #0026ff;
+  border: 0;
+  border-radius: 5px;
+}
+
+p {
+  color: #ccc;
+  text-align: center;
+}
+
+a {
+  color: #0026ff;
+  text-decoration: none;
 }
